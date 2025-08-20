@@ -1,0 +1,96 @@
+.pageWrapper {
+    background: linear-gradient(to bottom right, #FF8282, #FF6363);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px 15px; 
+  }
+  
+  .loginCard {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: #FF6363;
+    font-weight: 600;
+  }
+  
+  .label {
+    font-weight: 500;
+    color: #FF6363;
+  }
+  
+  .input {
+    border: 2px solid #FF8282;
+    border-radius: 10px;
+    padding: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #CF0F47;
+    box-shadow: 0 0 0 0.2rem rgba(207, 15, 71, 0.15);
+    outline: none;
+  }
+  
+  .loginBtn {
+    background-color: #CF0F47;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .loginBtn:hover {
+    background-color: #FF0B55;
+  }
+
+  .checkBox input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #FF8282;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-right: 8px;
+  }
+  
+  .checkBox input[type="checkbox"]:checked {
+    background-color: #FF0B55;
+    border-color: #CF0F47;
+  }
+  
+  .checkBox input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+  
+  .checkBox input[type="checkbox"]:checked::before {
+    opacity: 1;
+  }
+  
+  .link {
+    color: #FF0B55;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
